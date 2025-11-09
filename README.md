@@ -11,6 +11,25 @@ AI-powered call center solution with Azure and OpenAI GPT.
 
 ## Overview
 
+当公司的咨询业务非常大，每天都要处理大量重复性咨询，如果要实现 24 小时电话服务，人力成本更加高。
+
+来自微软开源的一个项目 Call Center AI，帮助我们用 AI 完全替代人工客服，既能接听来电也能主动呼叫。
+
+基于 Azure 和 OpenAI GPT 构建，支持实时语音对话、多语言交流，还能自动记录通话内容和生成待办事项，甚至可以处理敏感数据并遵循 RAG 最佳实践。
+
+GitHub：http://github.com/microsoft/call-center-ai
+
+主要功能：
+
+- 支持接听和拨打电话，配备专属号码，提供 24 小时不间断服务；
+- 实时流式对话延迟低，断线后可恢复，所有对话自动存储；
+- 支持多语言和多种语音语调，用户可通过短信提供或接收信息；
+- 基于 gpt-4.1 实现深度理解，能处理私密数据和内部文档；
+- 自动生成待办清单和结构化理赔数据，过滤不当内容；
+- 云原生无服务器架构，可根据使用量弹性扩展，优化成本。
+
+通过部署到 Azure 上即可使用，也可以在自己本地服务器上部署，适合保险、电商等需要大量电话沟通的行业。
+
 Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
 
 Insurance, IT support, customer service, and more. The bot can be customized in few hours (really) to fit your needs.
